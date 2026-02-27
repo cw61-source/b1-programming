@@ -1,4 +1,4 @@
-# 📝 Task Manager API
+# Task Manager API
 
 A simple task management REST API built with FastAPI for my backend course final project. It stores tasks in a plain text file using JSON Lines format, includes a small frontend UI, and can be deployed for free on Render.
 
@@ -28,7 +28,7 @@ fastapi-tasks/
 ## How to run it locally
 
 **1. Clone the repo**
-`bash
+```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
 cd YOUR_REPO_NAME
 ```
@@ -90,13 +90,10 @@ Each task is saved as one JSON object per line in `tasks.txt`:
 ```
 {"id": 1, "title": "Learn FastAPI", "description": "Watch tutorials", "completed": false}
 {"id": 2, "title": "Buy groceries", "description": "Milk and eggs", "completed": true}
-```
-
-This is called JSON Lines format. It's simple, human-readable, and easy to parse.
 
 ---
 
-## Deploying to Render (free)
+## Deploying to Render 
 
 1. Push your code to a public GitHub repository
 2. Go to [render.com](https://render.com) and create a free account
@@ -120,4 +117,5 @@ This is called JSON Lines format. It's simple, human-readable, and easy to parse
 - [FastAPI](https://fastapi.tiangolo.com/) – the web framework
 - [Pydantic](https://docs.pydantic.dev/) – data validation
 - [Uvicorn](https://www.uvicorn.org/) – ASGI server
-- Vanilla JavaScript – frontend (no frameworks, kept it simple)
+- Vanilla JavaScript – frontend
+
